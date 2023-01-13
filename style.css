@@ -1,0 +1,896 @@
+.navbar {
+    display: flex;
+    width: 50%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    background-color: #0f171e;
+    background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+    height: 12vh;
+    /* position: fixed; */
+
+}
+
+.amazon img {
+    width: 100px;
+    height: 50px;
+}
+
+.amazon {
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+.lists .inline {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.lists {
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.lists li {
+    list-style: none;
+    color: white;
+}
+
+.lastnav {
+    display: flex;
+    width: 45%;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+}
+.btn button{
+      padding: 7px 25px 7px 25px;
+      font-size: initial;
+      color: #fff !important;
+      background-color: #0f79af;
+      border: #0f79af;
+      border-radius: 5px;
+}
+.all i{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+}
+.select i{
+    color: #fff;
+    font-size: 20px;
+   
+}
+select{
+     background-color:  #52525b;
+     color: cyan;
+}
+.select2{
+    font-size: 20px;
+    color: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+.picture {
+    background-image: url(image/background\ images.jpg);
+    width: 100%;
+    height: 85vh;
+    /* position: fixed; */
+    background-size: cover;
+}
+
+.picture img {
+    width: 100%;
+
+}
+
+.content {
+
+    color: aliceblue;
+
+}
+
+.content h1 {
+    margin: 0;
+    padding-top: 170px;
+    padding-left: 3rem;
+    font-size: 2.6rem;
+    font-family: initial;
+}
+
+.small {
+    color: antiquewhite;
+}
+
+.small p {
+    padding-left: 3rem;
+    font-size: 1.37rem;
+    width: 40%;
+
+}
+
+.btn1 {
+    padding-left: 3rem;
+}
+
+.btn1 button {
+    font-size: 1rem;
+    font-weight: 555;
+    padding: 15px 60px 15px 60px;
+    color: #fff !important;
+    background-color: #0f79af;
+    border-radius: 6px
+}
+
+.border {
+    border-bottom: 25px solid black;
+}
+
+.background img {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    margin-top: -2%;
+}
+
+
+.para h1 {
+    margin: 0;
+
+    color: #fff;
+    /* margin-right: 7rem; */
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    width: 90%;
+    padding-right: 2rem;
+
+}
+
+.para {
+    width: 100%;
+    text-align: end;
+    position: relative;
+}
+
+.word p{
+    color: #fff;
+    font-size: 1.4rem;
+    padding-right: 3rem;
+}
+.btn2{
+    margin-left: 2rem;
+}
+.btn2 button{
+    padding: 20px 100px 20px 100px;
+    margin-right: 18rem;
+    color: #fff !important;
+    background-color: #0f79af;
+    border-radius: 4px;
+}
+.letter{
+    margin-top: 15%;
+    width: 95%;
+    height: 70vh;
+    background-color: #fff;
+    color: black;
+   display: flex;
+   margin-bottom: 15%;
+    
+}
+.letter h1{
+  color: black;
+  width: 80%;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  font-size: 2.6rem;
+  font-weight: lighter;
+
+}
+.summary{
+    width: 50%;
+}
+.summary p{
+    font-size: 1.4rem;
+    margin-left: 2.5rem;
+    width: 80%;
+    font-weight:initial;
+}
+.images{
+    width: 50%;
+    margin-top: 15px;
+}
+.pic{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    width: 50%;
+}
+.pic img{
+    width: 200px;
+    height: 150px;
+
+}
+/* .bottom{
+
+} */
+
+.join{
+margin-top: 15rem;
+width: 100%;
+}
+.remote{
+    background-image: url(image/remote.jpg);
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.brief{
+    position: absolute;
+    top: 25%;
+    margin-left: 10rem;
+}
+.brief h1 {
+    color: #fff;
+ text-align: end;
+ width: 95%;
+ font-size: 2.7rem;
+ margin-top: 2rem;
+}
+.brief p{
+  /* text-align: end; */
+  width: 50%;
+  margin-left: 520px;
+  color: aliceblue;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.btn3 span{
+    
+    padding: 15px 80px 15px 80px; 
+    background-color: #0f79af;
+    margin-left: 13%;
+    border-radius: 2px;
+    /* text-align: center; */
+}
+/* .border2{
+    border-bottom: 20%;
+} */
+.combine{
+    margin-bottom: 10%;
+}
+.combine img{
+    width: 100%;
+   position: absolute;
+   height: 80.5vh;
+
+}
+.shows h1{
+    position: relative;  
+    color: white;
+   padding-top: 10rem;
+   padding-left: 3rem;
+   margin: 0;
+   
+}
+.sentences p{
+    position: relative;
+    width: 40%;
+    margin-bottom: 3rem;
+    color: white;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+}
+.btn4 button{
+    position: relative;
+    padding: 20px 90px 20px 90px;
+    color: #fff !important;
+    background-color: #0f79af;
+    margin-left: 3rem;
+}
+.total{
+    margin-top: 13%;
+    text-align: center;
+    background-color: #0f171e;
+}
+.footer img{
+   width: 100px;
+   height: 50px;
+}
+.details span{
+    color: #0f79af;
+    margin-top: 20px;
+}
+.details2 span{
+    color: #52525b;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width:1050px){
+    .images {
+        margin-right: 92px;
+    }
+  .pic img {
+    width: 140px;
+    height: 110px;
+}
+.join{
+    margin-top: 0;
+}
+.remote{
+    height: 100vh;
+        background-position-x: 20%;
+}
+.brief p{
+    width: 35%;
+    margin-left: 450px;
+}
+.combine img {
+    height: 100vh;
+}
+body{
+    margin: 0;
+}
+.total{
+    margin: 0;
+}
+.combine {
+    margin-bottom: 8%;
+}
+}
+@media only screen and (max-width:985px){
+    .content h1 {
+        padding-top: 12%;
+    }
+    .remote{
+      background-position-x: 22%;
+      background-position-y: 27%;
+}
+    .btn3 span{
+      margin-left: 10%;
+ 
+}
+.lists .inline{
+    display: none;
+}
+.hidden{
+    display: block;
+    color: #fff;
+}
+.brief h1{
+    margin-top: -4%;
+}
+.brief p {
+    width: 40%;
+    margin-left: 55%;
+}
+.footer img {
+    width: 100px;
+    height: 40px;
+}
+.footer{
+        padding-top: 4%;
+}
+}
+@media only screen and (max-width:890px){
+    .remote {
+        background-position-x: 28%;
+        background-position-y: 25%;
+    }
+    .combine img {
+        height: 103vh;
+    }
+    .btn3 span {
+        margin-left: 9%;
+    }
+    .brief p {
+        width: 42%;
+        margin-left: 54%;
+    }
+}
+@media only screen and (max-width:845px){
+    .content h1 {
+        padding-top: 12%;
+        font-size: 36px;
+    }
+    
+
+.btn button {
+    padding: 6px 20px 6px 20px;
+}
+.select i {
+    font-size: 14px;
+}
+.letter{
+    width: 100%;
+}
+.brief p {
+    width: 46%;
+    margin-left: 52%;
+}
+.btn3 span {
+    margin-left: 8%;
+}
+}
+@media only screen and (max-width:810px){
+.btn button {
+    padding: 6px 15px 6px 15px;
+}
+.remote {
+    background-position-x: 33%;
+    background-position-y: 18%;
+}
+}
+@media only screen and (max-width:785px){
+    .btn button {
+        padding: 5px 13px 5px 13px;
+    }
+}
+
+    @media only screen and (max-width:777px){
+        .btn button {
+            padding: 5px 11px 5px 11px;
+        }
+    .combine img {
+        height: 106vh;
+    }
+}
+
+@media only screen and (max-width:767px){
+.btn button {
+    padding: 4px 9px 4px 9px;
+}
+}
+@media only screen and (max-width:760px){
+    .hidden{
+        margin-top: 6px;
+    }
+    .btn button {
+        padding: 4px 7px 4px 7px;
+    }
+    .brief p {
+        width: 51%;
+        margin-left: 47%;
+    }
+.remote {
+    background-position-x: 36%;
+}
+}
+@media only screen and (max-width:750px){
+.btn button {
+    padding: 4px 4px 4px 4px;
+}
+.sentences p
+{
+    
+    font-size: larger;
+}
+.remote {
+    background-size: cover;
+    background-position-x: 0%;
+    background-repeat: round;
+}
+.brief p {
+    width: 50%;
+    margin-left: 40%;
+}
+.btn3 span {
+    margin-left: 6%;
+}
+.lastnav{
+    width: 55%;
+}
+.footer {
+    padding-top: 10%;
+}
+}
+@media only screen and (max-width:695px){
+    .btn3 span {
+        margin-left: 4%;
+    }
+    .brief p {
+        width: 55%;
+        margin-left: 35%;
+    }
+    .letter{
+        flex-direction: column;
+        text-align: center;
+    }
+    .letter h1{
+          font-size: 30px;
+    }
+    .letter h1 {
+        font-size: 30px;
+        padding-top: 17px;
+    }
+    .summary{
+        width: 100%;
+    }
+    .pic img {
+        width: 155px;
+        height: 62px;
+       padding-left: 30px;
+    }
+    .brief h1 {
+        margin-top: -15%;
+    }
+    .images {
+        margin-left: 6%;
+    }
+    .picture {
+        height: 60vh;
+
+}
+}
+@media only screen and (max-width:675px){
+    .lastnav {
+        width: 65%;
+    }
+    .btn3 span {
+        margin-left: 1%;
+    }
+    .small p {
+    font-size: large;
+    }
+     .btn1 button {
+    padding: 10px 40px 10px 40px;
+     }
+     .btn2 button {
+        padding: 18px 45px 18px 45px;
+    }
+    .brief p{
+        font-size: large;
+    }
+    .brief h1 {
+    margin-top: -10%;
+}
+}
+@media only screen and (max-width:630px){
+    .lastnav {
+        width: 75%;
+    }
+    .para h1{
+        font-size: 35px;
+        
+    }
+    .word p{
+        font-size: 18px;
+    }
+    .btn2 button {
+        margin-right: 9rem;
+    }
+    .letter{
+        height: 80vh;
+
+    }
+    .brief p {
+        width: 60%;
+        margin-left: 32%;
+    }
+    .letter h1{
+        padding-top: 45px;
+    }
+}
+@media only screen and (max-width:595px){
+    .lastnav {
+        width: 80%;
+    }
+    .btn2 button {
+        padding: 10px 60px 10px 60px;
+    }
+    .letter h1 {
+        padding-top: 60px;
+    }
+    .letter {
+        height: 83vh;
+    }
+    .pic img {
+        padding-left: 13px;
+    }
+    .brief p{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:583px){
+    .lastnav {
+    width: 100%;
+    margin-right: 5px;
+}
+.btn1 button {
+    padding: 10px 20px 10px 20px;
+}
+.summary p{
+    font-size: large;
+}
+.brief h1{
+    font-size: 30px;
+}
+.btn4 button {
+    padding: 15px 55px 15px 55px;
+}
+.letter h1 {
+    padding-top: 75px;
+}
+.sentences p {
+    font-size: 17px;
+}
+.footer {
+    padding-top: 16%;
+}
+.btn3 span {
+    margin-left: -2%;
+}
+.pic img{
+    height: 58px;
+}
+.btn3 span {
+    padding: 13px 50px 13px 50px;
+}
+}
+@media only screen and (max-width:550px){
+.pic img {
+    width: 142px;
+    height: 60px;
+}
+.pic img{
+    padding-left: 10px;
+}
+.brief h1 {
+    font-size: 28px;
+}
+.brief p {
+    width: 61%;
+    margin-left: 32%;
+}
+.picture {
+    height: 50vh;
+}
+}
+@media only screen and (max-width:500px){
+    .lastnav {
+    width: 60%;
+    margin-right: -4px;
+}
+}
+@media only screen and (max-width:470px){
+.pic img {
+    width: 126px;
+    height: 50px;
+    padding-left: 6px;
+}
+.lastnav {
+    width: 65%;
+    margin-right: -7px;
+}
+.picture {
+    height: 50vh;
+}
+}
+@media only screen and (max-width:460px){
+    .btn button{
+        display: none; 
+    }  
+    .amazon img {
+        width: 70px;
+        height: 50px;
+    }
+    .navbar{
+        padding-top: 6px;
+    }
+    .content h1{
+        font-size: 26px;
+    }
+    .small p {
+        font-size: medium;
+    }
+    .btn1 button {
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+.content h1 {
+    padding-top: 14%;
+    font-size: 30px;
+}
+.btn3 span {
+    margin-left: -6%;
+}
+}
+@media only screen and (max-width:430px){
+    .select2{
+        padding-left: 5px;
+    }
+    .pic img {
+        width: 110px;
+        height: 60px;
+    }
+    .btn2 button {
+        margin-right: 5rem;
+    }
+    .para h1{
+        padding-top: 9rem;
+    }
+    .btn3 span {
+        margin-left: -8%;
+    }
+    .brief h1 {
+        font-size: 34px;
+    }
+    .btn4 button{
+        margin-left: 2rem;
+}
+.combine img {
+    height: 84vh;
+}
+    }
+
+@media only screen and (max-width:420px){
+    .select2{
+        font-size: revert;
+    }
+.picture{
+    height: 46vh;
+}
+.content h1{
+    font-size: 26px;
+}
+.small p {
+    font-size: initial;
+}
+.btn1 button {
+    padding: 5px 10px 5px 10px;
+}
+.para h1 {
+    padding-top: 100px;
+}
+.para h1 {
+    font-size: 27px;
+}
+.word p {
+    font-size: small;
+}
+.btn2 button {
+    margin-right: 4rem;
+}
+.pic img {
+    width: 110px;
+    height: 50px;
+    padding-left: 2px;
+}
+.brief h1 {
+    font-size: x-large;
+}
+.brief p {
+    width: 75%;
+    margin-left: 17%;
+}
+.brief{
+    top: 21%;
+}
+
+
+.shows h1{
+    padding-left: 2rem;
+}
+
+
+.sentences p{
+    margin-left: 1.999rem;
+}
+.btn4 button {
+    padding: 10px 30px 10px 30px;
+    margin-left: 2rem;
+}
+.footer img {
+    width: 80px;
+    height: 43px;
+}
+.details{
+    font-size: small;
+}
+.details2{
+    font-size: small;
+}
+.btn3 span {
+    padding: 10px 35px 10px 30px;
+}
+.btn3 span {
+    margin-left: 12%;
+}
+}
+
+@media only screen and (max-width:380px){
+    
+.pic img{
+    width: 95px;
+    height: 48px;
+}
+.lastnav{
+        font-size: medium;
+}
+.brief h1 {
+    font-size: 25px;
+    margin-left: -32px;
+}
+.btn3 span {
+    margin-left: 4%;
+}
+.combine img {
+    height: 84vh;
+}
+}
+@media only screen and (max-width:355px){
+.pic img {
+    width: 90px;
+    height: 41px;
+}
+.background img {
+    height: 65vh;
+}
+.brief p {
+    width: 100%;
+    margin-left: -1%;
+    font-size: smaller;
+}
+.combine img {
+    height: 102vh;
+    width: 101%;
+}
+.btn2 button {
+    padding: 7px 40px 7px 40px;
+}
+.btn4 button {
+    padding: 8px 30px 8px 30px;
+    margin-left: 20px;
+}
+.shows h1{
+        padding-top: 9rem;
+    padding-left: 1rem;
+
+}
+.word p{
+    padding-right: 1rem;
+}
+.sentences p {
+    font-size: 15px;
+    margin-left: 20px;
+}
+.footer {
+    padding-top: 22%;
+}
+.navbar {
+    padding-top: 8px;
+}
+.picture {
+    height: 40vh;
+}
+.btn3 span {
+    margin-left: 12%;
+}
+}
+
+@media only screen and (max-width:330px){
+      
+    .pic img {
+        width: 75px;
+        height: 30px;
+    } 
+    .letter h1 {
+        margin-left: 30px;
+}
+.summary p {
+    margin-left: 30px;
+}
+}
+    
